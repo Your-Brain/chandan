@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(50, 50, 50);
+}
+#ch-1{
+    width: 100vw;
+display: flex;
+justify-content: space-evenly;
+}
+#ch-1 :nth-child(2){
+    display: none;
+}
+#ch-1 {
+    color: #eee;
+    font-size: 7rem;
+
+}
+#ch-2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#ch-2 img:nth-child(2){
+    display: none;
+}
